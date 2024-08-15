@@ -2,10 +2,30 @@
   "name": "rhodium",
   "displayName": "Rhodium",
   "description": "Minimal vs code theme based on Tailwind colors",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.92.0"
+  "version": "1.0.0",
+  "icon": "images/cadet.png",
+  "publisher": "mataga",
+  "author": {
+    "name": "Mataga Believe",
+    "email": "ternalify@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/merzainc/rhodium/issues"
+  },
+  "homepage": "https://github.com/merzainc/rhodium#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merzainc/rhodium"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "keywords": [
+    "tailwindcss",
+    "mataga",
+    "rhodium",
+    "rhodium vs code"
+  ],
   "categories": [
     "Themes"
   ],
