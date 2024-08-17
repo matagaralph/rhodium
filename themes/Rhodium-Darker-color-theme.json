@@ -164,6 +164,7 @@
 		"quickInputList.focusForeground": "#1b1b1b",
 		"keybindingLabel.background": "#172337",
 		"keybindingLabel.bottomBorder": "#475569",
+		"pickerGroup.border": "#475569"
 	},
 	"tokenColors": [
 		{

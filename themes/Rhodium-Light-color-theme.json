@@ -1,6 +1,7 @@
 {
 	"name": "Rhodium Light",
 	"colors": {
+		"activityBar.border": "#0f172a1a",
 		"foreground": "#1e293b",
 		"editor.background": "#ffffff",
 		"editor.foreground": "#1e293b",
@@ -30,7 +31,8 @@
 		"terminal.ansiRed": "#be123c",
 		"terminal.ansiBrightRed": "#e11d48",
 		"terminal.ansiYellow": "#d97706",
-		"terminal.ansiBrightYellow": "#f59e0b"
+		"terminal.ansiBrightYellow": "#f59e0b",
+		"quickInputList.focusBackground": "#0ea5e9",
 	},
 	"tokenColors": [
 		{
