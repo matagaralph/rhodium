@@ -1,5 +1,5 @@
 {
-	"name": "Rhodium",
+	"name": "Rhodium Darker",
 	"colors": {
 		"foreground": "#f9fafb",
 		"editor.background": "#111827",
@@ -156,7 +156,7 @@
 		"statusBar.border": "#475569",
 		"statusBar.noFolderBackground": "#0e182c",
 		"statusBarItem.remoteBackground": "#4d78cc",
-		"statusBarItem.remoteForeground": "#f8fafd",
+		"statusBarItem.remoteForeground": "#f8fafd"
 	},
 	"tokenColors": [
 		{

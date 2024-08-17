@@ -2,7 +2,7 @@
   "name": "rhodium",
   "displayName": "Rhodium",
   "description": "Minimal vs code theme based on Tailwind colors",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "mataga",
   "author": {
     "name": "Mataga Believe",
@@ -19,9 +19,17 @@
   "engines": {
     "vscode": "^1.76.0"
   },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
   "keywords": [
     "tailwindcss",
-    "mataga",
+    "mataga believe",
+    "rhodium dark",
     "rhodium",
     "rhodium vs code"
   ],
@@ -31,9 +39,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rhodium",
+        "label": "Rhodium Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Rhodium-color-theme.json"
+        "path": "./themes/Rhodium-Dark-color-theme.json"
+      },
+      {
+        "label": "Rhodium Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rhodium-Darker-color-theme.json"
+      },
+      {
+        "label": "Rhodium Light",
+        "uiTheme": "vs",
+        "path": "./themes/Rhodium-Light-color-theme.json"
       }
     ]
   }

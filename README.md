@@ -1,6 +1,6 @@
 # Rhodium
 
-Minimal vs code theme based on Tailwind colors
+Minimal vs code theme based on Tailwind colors.
 
 ## Install
 
