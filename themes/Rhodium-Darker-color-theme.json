@@ -1,5 +1,34 @@
 {
 	"name": "Rhodium Darker",
+	"semanticTokenColors": {
+		"enumMember": {
+			"foreground": "#56b6c2"
+		},
+		"variable.defaultLibrary": {
+			"foreground": "#e5c07b"
+		},
+		"variable:dart": {
+			"foreground": "#d19a66"
+		},
+		"property:dart": {
+			"foreground": "#d19a66"
+		},
+		"annotation:dart": {
+			"foreground": "#d19a66"
+		},
+		"parameter.label:dart": {
+			"foreground": "#abb2bf"
+		},
+		"macro": {
+			"foreground": "#d19a66"
+		},
+		"tomlArrayKey": {
+			"foreground": "#e5c07b"
+		},
+		"memberOperatorOverload": {
+			"foreground": "#c678dd"
+		}
+	},
 	"colors": {
 		"foreground": "#f9fafb",
 		"editor.background": "#111827",
@@ -231,9 +260,23 @@
 			}
 		},
 		{
+			"name": "c++ function",
+			"scope": "meta.function.c,meta.function.cpp",
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
+			"name": "c++ block",
+			"scope": "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c",
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
 			"name": "Keyword Assignment - eg. =",
 			"scope": [
-				"keyword.operator.assignment"
+				"keyword.operator.assignment,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp"
 			],
 			"settings": {
 				"foreground": "#9ca3af"
@@ -610,7 +653,49 @@
 			"settings": {
 				"foreground": "#7dd3fc"
 			}
-		}
+		},
+		{
+			"name": "Source Json Meta Structure Dictionary Json > String Quoted Json",
+			"scope": "source.json meta.structure.dictionary.json > string.quoted.json",
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
+			"name": "Source Json Meta Structure Dictionary Json > String Quoted Json > Punctuation String",
+			"scope": "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
+			"name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
+			"scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
+			"settings": {
+				"foreground": "#4ade80"
+			}
+		},
+		{
+			"name": "Source Json Meta Structure Dictionary Json > Constant Language Json,source Json Meta Structure Array Json > Constant Language Json",
+			"scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
+			"settings": {
+				"foreground": "#56b6c2"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JSON Property Name",
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#4ade80"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
+			"scope": "support.type.property-name.json punctuation",
+			"settings": {
+				"foreground": "#4ade80"
+			}
+		},
 	],
 	"semanticHighlighting": true
 }
