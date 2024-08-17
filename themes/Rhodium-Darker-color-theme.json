@@ -95,7 +95,7 @@
 		"inputOption.hoverBackground": "#334155",
 		"list.activeSelectionBackground": "#161f31",
 		"list.activeSelectionForeground": "#d7dae0",
-		"list.focusBackground": "#2d4358",
+		"list.focusBackground": "#1e293b",
 		"list.focusForeground": "#f0f0f0",
 		"list.highlightForeground": "#ecebeb",
 		"list.hoverBackground": "#1e293b",
@@ -107,6 +107,7 @@
 		"input.foreground": "#94a3b8",
 		"input.border": "#475569",
 		"focusBorder": "#475569",
+		"notifications.background": "#1e293b",
 		"panel.border": "#475569",
 		"panelSectionHeader.background": "#111827",
 		"peekViewEditor.background": "#1b1d23",
@@ -156,7 +157,10 @@
 		"statusBar.border": "#475569",
 		"statusBar.noFolderBackground": "#0e182c",
 		"statusBarItem.remoteBackground": "#4d78cc",
-		"statusBarItem.remoteForeground": "#f8fafd"
+		"statusBarItem.remoteForeground": "#f8fafd",
+		"quickInput.background": "#1e293b",
+		"quickInputList.focusBackground": "#999EAD",
+		"quickInputList.focusForeground": "#000"
 	},
 	"tokenColors": [
 		{
