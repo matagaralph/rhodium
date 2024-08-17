@@ -2,8 +2,7 @@
   "name": "rhodium",
   "displayName": "Rhodium",
   "description": "Minimal vs code theme based on Tailwind colors",
-  "version": "1.0.0",
-  "icon": "images/cadet.png",
+  "version": "1.0.1",
   "publisher": "mataga",
   "author": {
     "name": "Mataga Believe",
