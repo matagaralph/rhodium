@@ -19,13 +19,6 @@
   "engines": {
     "vscode": "^1.76.0"
   },
-  "activationEvents": [
-    "onStartupFinished"
-  ],
-  "extensionKind": [
-    "ui",
-    "workspace"
-  ],
   "keywords": [
     "tailwindcss",
     "mataga believe",
