@@ -30,6 +30,9 @@
 		}
 	},
 	"colors": {
+		"titleBar.inactiveBackground": "#111827",
+		"titleBar.activeBackground": "#111827",
+		"titleBar.border": "#475569",
 		"foreground": "#f9fafb",
 		"editor.background": "#111827",
 		"editor.foreground": "#f9fafb",
@@ -156,7 +159,7 @@
 		"tab.activeForeground": "#dcdcdc",
 		"tab.border": "#475569",
 		"tab.activeBorder": "#111827",
-		"tab.activeBorderTop": "#0ea5e9",
+		"tab.activeBorderTop": "#0284c7",
 		"tab.hoverBackground": "#1e293b",
 		"tab.inactiveBackground": "#111827",
 		"tab.unfocusedHoverBackground": "#2d4358",

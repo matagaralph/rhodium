@@ -1,6 +1,9 @@
 {
     "name": "Rhodium Dark",
     "colors": {
+        "titleBar.inactiveBackground": "#1e293b",
+        "titleBar.activeBackground": "#1e293b",
+        "titleBar.border": "#475569",
         "foreground": "#f9fafb",
         "editor.background": "#1e293b",
         "editor.foreground": "#f9fafb",
