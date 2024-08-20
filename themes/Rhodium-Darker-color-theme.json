@@ -1,5 +1,6 @@
 {
-	"name": "Rhodium Darker",
+	"name": "Rhodium Dark (Enhanced)",
+	"variant": "rhodium.dark.enhanced",
 	"semanticTokenColors": {
 		"enumMember": {
 			"foreground": "#56b6c2"

@@ -1,5 +1,6 @@
 {
     "name": "Rhodium Dark",
+    "variant": "rhodium.dark",
     "colors": {
         "titleBar.inactiveBackground": "#1e293b",
         "titleBar.activeBackground": "#1e293b",

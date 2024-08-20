@@ -1,8 +1,8 @@
 {
   "name": "rhodium",
   "displayName": "Rhodium",
-  "description": "Minimal and nice vs code theme based on Tailwind colors",
-  "version": "1.1.6",
+  "description": "A minimal and elegant VS Code theme inspired by the modern colors of Tailwind and Next.js.",
+  "version": "1.1.7",
   "publisher": "mataga",
   "author": {
     "name": "Mataga Believe",
@@ -37,7 +37,7 @@
         "path": "./themes/Rhodium-Dark-color-theme.json"
       },
       {
-        "label": "Rhodium Darker",
+        "label": "Rhodium Dark (Enhanced)",
         "uiTheme": "vs-dark",
         "path": "./themes/Rhodium-Darker-color-theme.json"
       }
