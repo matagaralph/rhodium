@@ -96,18 +96,19 @@
         "editorGroupHeader.tabsBorder": "#475569",
         "editorCursor.background": "#ffffffc9",
         "gitDecoration.ignoredResourceForeground": "#636b78",
+        "list.hoverForeground": "#e1e4e8",
+        "list.inactiveSelectionForeground": "#e1e4e8",
+        "list.activeSelectionForeground": "#e1e4e8",
+        "list.hoverBackground": "#1e293b",
+        "list.inactiveSelectionBackground": "#334155",
+        "list.activeSelectionBackground": "#283447",
+        "list.inactiveFocusBackground": "#475569",
         "inputOption.hoverBackground": "#334155",
-        "list.activeSelectionBackground": "#161f31",
-        "list.activeSelectionForeground": "#d7dae0",
         "list.focusBackground": "#999ead",
         "list.focusForeground": "#f0f0f0",
         "list.highlightForeground": "#ecebeb",
-        "list.hoverBackground": "#1e293b",
-        "list.hoverForeground": "#abb2bf",
-        "list.inactiveSelectionBackground": "#2d4358",
-        "list.inactiveSelectionForeground": "#d7dae0",
         "list.warningForeground": "#d19a66",
-        "input.background": "#1e293b",
+        "input.background": "#334155",
         "input.foreground": "#94a3b8",
         "input.border": "#475569",
         "focusBorder": "#475569",
@@ -163,11 +164,12 @@
         "statusBarItem.remoteBackground": "#4d78cc",
         "statusBarItem.remoteForeground": "#f8fafd",
         "notifications.background": "#1e293b",
-        "quickInput.background": "#1e293b",
+        "quickInput.background": "#334155",
         "quickInputList.focusBackground": "#999FAD",
         "quickInputList.focusForeground": "#1b1b1b",
         "keybindingLabel.background": "#172337",
         "keybindingLabel.bottomBorder": "#475569",
+        "pickerGroup.border": "#475569",
     },
     "tokenColors": [
         {
@@ -176,7 +178,7 @@
                 "comment"
             ],
             "settings": {
-                "foreground": "#9ca3af"
+                "foreground": "#94A3B8"
             }
         },
         {
@@ -191,7 +193,11 @@
         {
             "name": "Constant - eg. Number, Boolean, Colors",
             "scope": [
-                "constant"
+                "constant",
+                "entity.name.constant",
+                "variable.other.constant",
+                "variable.other.enummember",
+                "variable.language"
             ],
             "settings": {
                 "foreground": "#fde68a"
@@ -245,7 +251,10 @@
         {
             "name": "Storage - eg. Type (class, function, var)",
             "scope": [
-                "storage"
+                "storage",
+                "storage.modifier.package",
+                "storage.modifier.import",
+                "storage.type.java"
             ],
             "settings": {
                 "foreground": "#d1d5db"
@@ -255,7 +264,11 @@
             "name": "String - eg. Quoted Value, Interpolated Values, Regex",
             "scope": [
                 "string",
-                "punctuation.definition.string"
+                "punctuation.definition.string",
+                "string.regexp.character-class",
+                "string.regexp constant.character.escape",
+                "string.regexp source.ruby.embedded",
+                "string.regexp string.regexp.arbitrary-repitition"
             ],
             "settings": {
                 "foreground": "#7dd3fc"
@@ -568,7 +581,7 @@
             }
         },
         {
-            "name": "[JS] - Variable",
+            "name": "Variable",
             "scope": [
                 "variable.other.property.js"
             ],
@@ -577,7 +590,7 @@
             }
         },
         {
-            "name": "[JS] - Import",
+            "name": "Import",
             "scope": [
                 "meta.import keyword.control.import"
             ],
@@ -586,7 +599,7 @@
             }
         },
         {
-            "name": "[JS] - Import From",
+            "name": "Import From",
             "scope": [
                 "meta.import keyword.control.from",
                 "meta.import punctuation"
@@ -596,7 +609,7 @@
             }
         },
         {
-            "name": "[JS] - Import String - eg. '../location/file",
+            "name": "Import String - eg. '../location/file",
             "scope": [
                 "meta.import string",
                 "meta.import string punctuation.definition.string"
@@ -606,14 +619,33 @@
             }
         },
         {
-            "name": "[JS] - Import Variable - eg. React, Moment",
+            "name": "Import Variable - eg. React, Moment",
             "scope": [
                 "meta.import variable.other.readwrite"
             ],
             "settings": {
                 "foreground": "#7dd3fc"
             }
-        }
+        },
+        {
+            "scope": [
+                "brackethighlighter.tag",
+                "brackethighlighter.curly",
+                "brackethighlighter.round",
+                "brackethighlighter.square",
+                "brackethighlighter.angle",
+                "brackethighlighter.quote"
+            ],
+            "settings": {
+                "foreground": "#d1d5da"
+            }
+        },
+        {
+            "scope": "brackethighlighter.unmatched",
+            "settings": {
+                "foreground": "#fdaeb7"
+            }
+        },
     ],
     "semanticHighlighting": true
 }
